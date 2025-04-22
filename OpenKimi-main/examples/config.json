@@ -1,0 +1,19 @@
+{
+    "llm": {
+        "type": "dummy",
+        "model_name": "openkimi-dummy"
+    },
+    "processor": {
+        "batch_size": 512,
+        "entropy_threshold": 3.0
+    },
+    "rag": {
+        "embedding_model": "all-MiniLM-L6-v2",
+        "top_k": 5,
+        "use_faiss": true
+    },
+    "mcp_candidates": 1,
+    "framework": {
+        "max_steps": 5
+    }
+} 
